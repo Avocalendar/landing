@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   build-and-deploy:
-    needs: check-format
     runs-on: ubuntu-latest
     environment:
       name: github-pages
