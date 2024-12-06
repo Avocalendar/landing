@@ -46,6 +46,11 @@ const Hero = () => {
     }
   }
 
+  console.log(
+    "Supabase Key:",
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.substring(0, 10) + "..."
+  )
+
   return (
     <div className="relative flex h-full max-w-full items-center justify-center overflow-hidden rounded-lg bg-background p-5 sm:p-10 mt-5 sm:mt-20">
       <section className="flex flex-col items-center justify-center space-y-5 sm:space-y-10">
