@@ -9,6 +9,8 @@ import DotPattern from "@/components/magicui/dot-pattern"
 import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 
+import "@/styles/globals.css"
+
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
