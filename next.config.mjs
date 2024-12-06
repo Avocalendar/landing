@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    appDir: true,
+  output: 'export',
+  basePath: '/landing',
+  images: {
+    unoptimized: true,
   },
 }
 
