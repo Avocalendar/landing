@@ -38,7 +38,7 @@ jobs:
           cp -r build/* gh-pages/
           cd gh-pages
           touch .nojekyll
-          echo "kalexa.fr" > CNAME
+          echo "lexaro.fr" > CNAME
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

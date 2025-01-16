@@ -8,10 +8,10 @@ export default function DockLive() {
   return (
     <div className="  h-[500px] w-full max-w-[32rem] flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
       <Dock>
-        <DockIcon href="https://www.linkedin.com/company/kalexalapplipourlesavocats/posts/?feedView=all">
+        <DockIcon href="https://www.linkedin.com/company/lexarolapplipourlesavocats/posts/?feedView=all">
           <Icons.linkedin className="h-6 w-6" />
         </DockIcon>
-        <DockIcon href="https://www.instagram.com/kalexa_app_avocats">
+        <DockIcon href="https://www.instagram.com/lexaro_app_avocats">
           <Icons.instagram className="h-6 w-6" />
         </DockIcon>
       </Dock>

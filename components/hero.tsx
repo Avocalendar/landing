@@ -59,7 +59,7 @@ const Hero = () => {
             Soyez les premiers informés de ce qui arrive !
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
-            <b>KALEXA</b> : l&apos;app qui manquait à la <b>confraternité</b>.
+            <b>LEXARO</b> : l&apos;app qui manquait à la <b>confraternité</b>.
           </p>
           <form
             className="mt-4 flex flex-col items-center justify-center gap-4 w-full mx-auto py-5 max-w-full"
